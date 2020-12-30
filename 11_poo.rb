@@ -7,7 +7,7 @@ class Person
 
     # Metodo constructor, debe llamarse 'initialize'
     def initialize(name, age)
-        # Metodos de instancia
+        # Atributos de instancia
         @name = name
         @age = age
     end
