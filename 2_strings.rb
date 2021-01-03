@@ -10,8 +10,8 @@ nombre = "edu"
 mensaje = "Hola #{nombre}"
 
 # Operaciones
-res = "Hola" + "Mundo"
-resmul = "Hola" * 5
+res = "Hola " + "Mundo" #= "Hola Mundo"
+resmul = "Hola" * 5 # = "HolaHolaHolaHolaHola"
 
 # Algunos metodos
 saludo.class

@@ -7,7 +7,7 @@ class Person
 
     # Metodo constructor, debe llamarse 'initialize'
     def initialize(name, age)
-        # Atributos de instancia
+        # Atributos de instancia, se identifican con el simbolo @
         @name = name
         @age = age
     end
@@ -27,7 +27,8 @@ class Person
     # (persona.name = "edu").age = 7 <- encadenamiento de metodos
     def name=(name)
         @name = name
-        self # Regresa el objeto y permite encadenar llamadas de metodos
+        self # Regresa el objeto y permite encadenar llamadas de metodos,
+        # similar al patron builder
     end
 
     def age=(age)
@@ -65,6 +66,7 @@ puts persona2.age
 
 # Declarando clases con metodos usando Struct, 
 # no necesitamos getters y setters ni constructores, Struct lo hara por nosotros
+# Como puede verse la cantidad de codigo se reduce en gran medida
 class Animal < Struct.new(:type,:age)
 end
 
