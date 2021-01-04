@@ -4,4 +4,7 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem 'faker', '~> 2.15', '>= 2.15.1'
+# Antes de instalar ruby2D instalar simple2D https://github.com/simple2d/simple2d
+# Ruby2D depende de esa libreria nativa, probar en entornos UNIX, en windows existen
+# varios inconvenientes para poder hacerlo funcionar
+gem 'ruby2d', '~> 0.5.1'
