@@ -15,7 +15,7 @@ loop do
     break if y >= 5
 end
 
-# Usando un for y el tipo rango, la variable se autoincrementa
+# Usando un for y el tipo rango, la variable se auto-incrementa
 for i in 1..10 do
     puts "i -> #{i}"
 end

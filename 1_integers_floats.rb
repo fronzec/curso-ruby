@@ -1,5 +1,5 @@
 # Para iniciar el interprete de ruby usamos ´irb´ en la consola
-# Tipos de dato enterio y flotante
+# Tipos de dato entero y flotante
 # Asignar un enterio
 x = 5
 
@@ -7,7 +7,7 @@ x = 5
 y = 10.9
 
 # Operadores
-x + y   # suna
+x + y   # suma
 x - y   # resta
 x / y   # division
 x * y   # multiplicacion

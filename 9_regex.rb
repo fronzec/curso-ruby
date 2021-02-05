@@ -1,6 +1,6 @@
 # Regex, expresione regulares
 
-# Para declarar un regex usamod el simbolo /
+# Para declarar un regex usamod el simbolo /<regex>/
 is_gmail_regex = /\w+@gmail.com/
 
 # Para usan el regex tenemos que usar el metodo match

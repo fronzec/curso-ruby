@@ -1,8 +1,8 @@
 # Strings
-# para declarar un string lo hacemos con comillas simples o dobles o notacino especial
+# para declarar un string lo hacemos con comillas simples o dobles o notacion especial
 saludo = "Hola"
 saludo = 'Hola'
-saludo = %q(Hola)# Util si nuestro string incluye comillas dobles como parte
+saludo = %q(Hola)# Util si nuestro string incluye comillas dobles como parte de la cadena
 saludo = %Q(Hola)
 
 # Interpolacion en strings, solo funciona con comillas dobles

@@ -1,4 +1,6 @@
 # POO 
+
+# =========================
 class Person
     # Metodo de clase
     def self.suggested_name
@@ -7,13 +9,13 @@ class Person
 
     # Metodo constructor, debe llamarse 'initialize'
     def initialize(name, age)
-        # Atributos de instancia, se identifican con el simbolo @
+        # Atributos de instancia, se identifican con el simbolo @<nombre_atributo>
         @name = name
         @age = age
     end
     # Getters
     def name
-        # No necesitamos utilizar la palabra return, en ruby todos los metodos
+        # No necesitamos utilizar la palabra 'return', en ruby todos los metodos
         # regresan algo, retornan por defecto el valor de la ultima instruccion
         @name 
     end
@@ -45,13 +47,14 @@ puts persona1.age
 # Llamada al metodo de clase, se debe usar el nombre de la clase
 puts Person.suggested_name
 
+# =========================
 # Usando metaprogramacion para reducir la cantidad de codigo
 class Persona
     # Usando el macro attr_accesor y symbols ruby generara los getters y setters
     attr_accessor :name, :age
     
     def self.suggested_name
-        ["Edu","Juan","Oscar"]
+        ["Edu", "Juan", "Oscar"]
     end
 
     def initialize(name, age)
@@ -64,6 +67,7 @@ persona2 = Persona.new("Otro", 25)
 puts persona2.name
 puts persona2.age
 
+# =========================
 # Declarando clases con metodos usando Struct, 
 # no necesitamos getters y setters ni constructores, Struct lo hara por nosotros
 # Como puede verse la cantidad de codigo se reduce en gran medida

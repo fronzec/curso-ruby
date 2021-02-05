@@ -8,4 +8,4 @@ puts color1.object_id
 
 :red.class
 :red.methods
-:red.to_s       # Para convertir el simbolo a string, usado por ejemplo mapear a una base de datos
+:red.to_s       # Asi podemos convertir el simbolo a string, usado por ejemplo  cuando mapeamos a una base de datos
